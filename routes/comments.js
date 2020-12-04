@@ -11,7 +11,7 @@ router.post("/", async (req, res, next) => {
     });
     console.log(comment);
     const result = await Comment.populate(comment, { path: "commenter" });
-    req.statusCode(201).json(comment);
+    res.status(201).json(result);
   } catch (err) {
     console.error(err);
     next(err);

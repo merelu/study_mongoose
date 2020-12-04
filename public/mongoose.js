@@ -17,7 +17,7 @@ async function getUser() {
     users.map((user) => {
       const row = document.createElement("tr");
       row.addEventListener("click", () => {
-        getComment(id);
+        getComment(user._id);
       });
 
       //로우 셀 추가

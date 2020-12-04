@@ -1,7 +1,7 @@
 const express = require("express");
 const User = require("../schemas/users");
 
-const router = express.router();
+const router = express.Router();
 
 router.get("/", async (req, res, next) => {
   try {
