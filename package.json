@@ -6,6 +6,9 @@
   "repository": "https://github.com/merelu/study_mongoose.git",
   "author": "GYUHA_HWANG <gyuha0310@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "nodemon app"
+  },
   "dependencies": {
     "express": "^4.17.1",
     "mongoose": "^5.11.2",
